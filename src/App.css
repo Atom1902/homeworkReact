@@ -1,36 +1,5 @@
-
-button {
-  border-radius: 7px;
-  color: rgb(189, 41, 41);
-  background: lightsteelblue;
-  border: 1px solid rgb(33, 33, 34);
-  height: 30px;
-
-}
-.usersAndInfo {
+.App{
   display: flex;
-  background: rgb(48, 219, 219);
-  border: 1px solid rgb(39, 37, 37);
-  border-radius: 5px;
-  padding: 20px;
-  width: 470px;
-}
-.user {
-  margin-right: 20px;
-  margin-bottom: 10px;
-  background: rgb(173, 166, 166);
-  padding: 10px;
-  border-radius: 5px;
+  align-items: center;
   text-align: center;
-  width: 200px;
-
-}
-
-.userInfo {
-  border: 1px solid rgb(173, 166, 166);
-  border-radius: 5px;
-  padding: 10px;
-  background: rgb(173, 166, 166);
-  width: 200px;
-  height: 1070px;
 }
