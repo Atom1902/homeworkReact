@@ -6,19 +6,19 @@ import './App.css';
 
 const App = () => {
 
-let [user,setUser] = useState(null);
-let [userId,setUserId] = useState(null);
+    let [user,setUser] = useState(null);
+    let [userId,setUserId] = useState(null);
 
-  return (
-    <div>
-      <div className="usersAndInfo">
-        <Users setUser={setUser} setUserId={setUserId}/>
-        {user && <UserInfo user={user} setUserId={setUserId}/>}
-        
-      </div>
-     
-    </div>
-  );
+    return (
+        <div>
+            <div className="usersAndInfo">
+                <Users setUser={setUser} setUserId={setUserId}/>
+                {user && <UserInfo user={user} setUserId={setUserId}/>}
+
+            </div>
+
+        </div>
+    );
 };
 
 export default App;
