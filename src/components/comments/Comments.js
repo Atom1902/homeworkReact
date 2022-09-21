@@ -7,9 +7,9 @@ const Comments = () => {
 
     const {register,handleSubmit,formState:{errors}} = useForm({
         defaultValues: {
-            name: 'name',
-            body: 'body',
-            email: 'user@gmail.com'
+            name: 'name111',
+            body: 'body111',
+            email: 'user1254@gmail.com'
         }
     });
 
