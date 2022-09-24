@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
+
 import {getCurrentCommentPost} from "../../services";
+
 import {PostComponent} from "./PostComponent";
+
 
 const PostCurrentUser = () => {
 

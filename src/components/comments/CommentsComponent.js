@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
+
 import {getComments} from "../../services";
+
 import {CommentComponent} from "./CommentComponent";
 
 const CommentsComponent = () => {

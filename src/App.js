@@ -1,7 +1,10 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
+
 import {AlbumsPage, CommentsPage, TodosPage} from "./pages";
+
 import {Layout} from "./layout/layout";
+
 import {PostComponent, PostCurrentUser} from "./components";
 
 
