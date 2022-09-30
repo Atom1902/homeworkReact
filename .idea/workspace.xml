@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a972f83-704d-4aed-b95e-9772872d755e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+    <list default="true" id="0e44ccfc-4018-4f6f-90a3-d4869bbf1379" name="Changes" comment="hwUseReducer">
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cat/Cat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cat/Cats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dog/Dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dog/Dogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/comments/Comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/comments.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/user.service.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,7 +52,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a972f83-704d-4aed-b95e-9772872d755e" name="Changes" comment="" />
+      <changelist id="0e44ccfc-4018-4f6f-90a3-d4869bbf1379" name="Changes" comment="new 5" />
       <created>1663739561287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -54,6 +60,7 @@
       <workItem from="1663739569298" duration="105000" />
       <workItem from="1663739723195" duration="405000" />
       <workItem from="1663740173509" duration="669000" />
+      <workItem from="1664524767866" duration="3602000" />
     </task>
     <servers />
   </component>
@@ -70,5 +77,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hwUseReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="hwUseReducer" />
   </component>
 </project>

@@ -1,2 +1,2 @@
-export * from './users/Users';
-export * from './comments/Comments';
+export * from './Cat/Cat';
+export * from './Dog/Dog'

@@ -1,0 +1,10 @@
+.form {
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 100px;
+
+
+}

@@ -1,18 +1,23 @@
 import React from 'react';
+import './App.css';
 
-import {Comments, Users} from "./components";
+
+import {Cat, Dog} from "./components";
 
 const App = () => {
 
     return (
-        <div>
-            <div>Users</div>
-            <Users/>
-            <div>Comments</div>
-            <Comments/>
+        <div className="form" >
+            <div >
+                <Cat/>
+            </div>
+
+            <div >
+                <Dog/>
+            </div>
 
 
-        </div>
+        </div >
     );
 };
 
