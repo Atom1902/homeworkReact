@@ -78,10 +78,15 @@ interface ICore {
 //     age: 18,
 //     gender: 'male'
 // }
-
-class User {
-    constructor(public name: string, public age: number, public gender: string) {
-    }
+interface IUser {
+    name: string
+    age: number
+    gender: string
+}
+const user:IUser = {
+    name: "Max",
+    age: 18,
+    gender: 'male'
 }
 
 
@@ -112,8 +117,10 @@ function showSum(a: number, b: number): void {
 // incAge(user, 2)
 
 
-function incAge(someUser: User, inc: number): User {
+function incAge(someUser: IUser, inc: number): IUser {
     someUser.age += inc;
-    return someUser;
-console.log(sum(1, 2));
-showSum(2,3);
+    return someUser
+}
+    console.log(sum(1, 2));
+    showSum(2,3)
+    incAge(user, 2)
